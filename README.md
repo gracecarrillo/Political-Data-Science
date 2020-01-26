@@ -2,7 +2,7 @@
 Advanced Data Science Capstone Repo
 
 # Political Data Science
-Analysing Sentiment towards a new Scottish Independence Referendum
+## Analysing Sentiment towards a new Scottish Independence Referendum
 
 ### Table of Contents
 
