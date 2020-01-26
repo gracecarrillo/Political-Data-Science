@@ -19,7 +19,7 @@ All necesary libraries are indicated at the beggining of each notebook:
   - [Feature Engineering](Feature_Engineering_Sentiment_Analysis_Scotref2.ipynb)
   - [Model Definition and Training](Models_Definition_&_Training_Sentiment_Analysis_Scotref2.ipynb)
   - [Model Evaluation](Model_Evaluation_Sentiment_Analysis_Scotref2.ipynb)
-  - Model Deployment - Upcoming
+  - [Model Deployment](Model_Deployment_Sentiment_Analysis_Scotref2.ipynb)
 
 The code should run with no issues using Python versions 3.*.
 
@@ -45,7 +45,15 @@ This project looks into Twitter as political barometer for Scottish Independence
 
 ## Results<a name="results"></a>
 
-Upcoming
+After training and testing, the performance of the LSTM network was found to be better than other models and is the one we used for model deployment. We chose LSTM over the SVM model because generally, deep learning really shines when it comes to complex problems such as natural language processing. Another advantage is that you have we worry less about the feature engineering part when it comes to model deployment.
+
+Ultimately the true test was testing the model on unseen, real world data.
+
+We predicted sentiment scores (positive/negative) on the tweets data set. We found that tweets from cities in Scotland have an overall more negative sentiment than those from England and Wales. We observe one city in Northern Ireland with overall neutral sentiment. The city with the highest negative sentiment overall (-19) is Glasgow, followed by Invergordon (-13). We also found that a lot of tweets originate from high population density urban areas, as expected. These areas are Glasgow, Edinburgh, London, Liverpool, Manchester and Cardiff.
+
+Again, this does not mean that tweets from Scotland have a negative attitude towards Scottish Inpendence but rather the tweets carry a negative sentiment, for example they can be interpreted as angry tweets. The same can be said with tweets with positive sentiment from  English cities. 
+
+For our next steps, we identify that stakeholders maybe interested in the specific emotions towards Scottish Independence rather than the polarity itself. They may want to understand how people feel about the topic, or recognizing growing anger or fear associated with it. It would be an interesting future project to re-train a classifier to learn and predict emotion, such as affection, anger/rage, fear/anxiety, joy or sadness/dissapointment.
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
