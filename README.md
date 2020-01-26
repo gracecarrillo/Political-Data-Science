@@ -41,7 +41,7 @@ This project looks into Twitter as political barometer for Scottish Independence
   - [Feature Engineering](Feature_Engineering_Sentiment_Analysis_Scotref2.ipynb)  Feature extraction based using polarity scores and POS count. 
   - [Model Definition and Training](Models_Definition_&_Training_Sentiment_Analysis_Scotref2.ipynb) Pipeline to train Supervised Machine Learning models (Naive Bayes and Support Vector Machine classifiers) using Scikit-Learn; and Deep Learning Models (LSTM Recurrent Neural Network and LSTM with regularisation) using Keras. 
   - [Model Evaluation](Model_Evaluation_Sentiment_Analysis_Scotref2.ipynb) Exploration of metrics (Confusion Matrices, F1-Score, Recall, Precision and Accuracy) to check model performance.
-  - Model Deployment - In construction : Sentiment analysis with twitter data, geoplots for storytelling.
+  - [Model Deployment](Model_Deployment_Sentiment_Analysis_Scotref2.ipynb) Sentiment analysis with twitter data, spatial analysis and geoplots for storytelling.
 
 ## Results<a name="results"></a>
 
@@ -57,4 +57,4 @@ For our next steps, we identify that stakeholders maybe interested in the specif
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Acknowledgements to source-code are made throughout the notebooks. Feel free to use the code here as you would like! 
+Acknowledgements to source-code are made throughout the notebooks. Feel free to use the code here as you would like (under MIT License)! 
