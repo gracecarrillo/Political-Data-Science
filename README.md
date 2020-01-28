@@ -34,6 +34,10 @@ This project looks into Twitter as political barometer for Scottish Independence
 
 ## File Descriptions <a name="files"></a>
 
+For a bit more narrative, I published a post in Towards Data Science, which you can find [here](https://towardsdatascience.com/political-data-science-a-tale-of-tweets-75b762224e56?source=friends_link&sk=eed76e459d1689b1c2497bedf79668b0). 
+
+For technical details, check the notebooks:
+
   - [ETL](ETL_Sentiment_Analysis_Scotref2.ipynb).  Notebook for exploratory data analysis and insights for feature extraction. 
   - [Feature Engineering](Feature_Engineering_Sentiment_Analysis_Scotref2.ipynb)  Feature extraction based using polarity scores and POS count. 
   - [Model Definition and Training](Models_Definition_&_Training_Sentiment_Analysis_Scotref2.ipynb) Pipeline to train Supervised Machine Learning models (Naive Bayes and Support Vector Machine classifiers) using Scikit-Learn; and Deep Learning Models (LSTM Recurrent Neural Network and LSTM with regularisation) using Keras. 
@@ -51,6 +55,10 @@ We predicted sentiment scores (positive/negative) on the tweets data set. We fou
 Again, this does not mean that tweets from Scotland have a negative attitude towards Scottish Inpendence but rather the tweets carry a negative sentiment, for example they can be interpreted as angry tweets. The same can be said with tweets with positive sentiment from  English cities. 
 
 For our next steps, we identify that stakeholders maybe interested in the specific emotions towards Scottish Independence rather than the polarity itself. They may want to understand how people feel about the topic, or recognizing growing anger or fear associated with it. It would be an interesting future project to re-train a classifier to learn and predict emotion, such as affection, anger/rage, fear/anxiety, joy or sadness/dissapointment.
+
+Training our classifier with emotion phrases and their context would be very beneficial. Particularly training it with special community behaviors and area-specific sentiment lexicon. The word *soft* may evoke positive connotations of warmth and cuddliness in many contexts, but calling a rugby player *soft* would be an insult.
+
+A training data set that uses Scottish-specific words and phrases that reflect anger, happiness, disappointment and other emotions would probably help us understand what Scots true opinions are about the current state of affairs.
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
