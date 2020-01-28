@@ -1,6 +1,8 @@
 # Political Data Science
 ## Analysing Sentiment towards a new Scottish Independence Referendum
 
+### For a bit more narrative, here's a link to my post in Towards Data Science **[here]**(https://towardsdatascience.com/political-data-science-a-tale-of-tweets-75b762224e56?source=friends_link&sk=eed76e459d1689b1c2497bedf79668b0). 
+
 ### Table of Contents
 
 1. [Installation](#installation)
@@ -34,9 +36,6 @@ This project looks into Twitter as political barometer for Scottish Independence
 
 ## File Descriptions <a name="files"></a>
 
-For a bit more narrative, I published a post in Towards Data Science, which you can find [here](https://towardsdatascience.com/political-data-science-a-tale-of-tweets-75b762224e56?source=friends_link&sk=eed76e459d1689b1c2497bedf79668b0). 
-
-For technical details, check the notebooks:
 
   - [ETL](ETL_Sentiment_Analysis_Scotref2.ipynb).  Notebook for exploratory data analysis and insights for feature extraction. 
   - [Feature Engineering](Feature_Engineering_Sentiment_Analysis_Scotref2.ipynb)  Feature extraction based using polarity scores and POS count. 
