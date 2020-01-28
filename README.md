@@ -1,6 +1,3 @@
-# IBM Advanced Data Science Specialisation - powered by Coursera
-Advanced Data Science Capstone Repo
-
 # Political Data Science
 ## Analysing Sentiment towards a new Scottish Independence Referendum
 
@@ -26,7 +23,7 @@ The code should run with no issues using Python versions 3.*.
 ## Project Motivation<a name="motivation"></a>
 
 <p align=justify>
-The role of social media in shaping politics these days is hard to deny and Twitter is arguably the most studied and used source of data even though in many countries Twitter is not the main player. We use mostly Twitter data because that's what's (almost) publicly available whereas it’s (almost) impossible to collect any useful data from Facebook. As part of the IBM Advanced Data Science Specialisation, I chose to look into the current political situation in Scotland after the Brexit vote, and most recently, Boris Johnson's win the winter General Election of 2019.</p>
+The role of social media in shaping politics these days is hard to deny and Twitter is arguably the most studied and used source of data even though in many countries Twitter is not the main player. We use mostly Twitter data because that's what's (almost) publicly available whereas it’s (almost) impossible to collect any useful data from Facebook. So I set out to look into the current political situation in Scotland after the Brexit vote, and most recently, Boris Johnson's win the winter General Election of 2019.</p>
 
 <p align=justify>
 Scottish voters were first asked whether they wanted Scotland to become an independent country in a referendum in September 2014; the result was 55% to 45% against independence. In its manifesto for the 2016 Scottish Parliament elections, the Scottish National Party (SNP) argued that “Scotland being taken out of the EU against our will” would justify a second vote on independence. Scotland voted by 62% to 38% in favour of Remain in the EU referendum in June 2016, and First Minister Nicola Sturgeon concluded that indyref2 “must be on the table”. In March 2017 Sturgeon formally requested the consent of Westminster to hold another referendum. But Prime Minister Theresa May declined, arguing that “now is not the time”. The first minister renewed calls for a second vote in April 2019, announcing a new process for deciding Scotland’s constitutional future. The SNP's 2019 General Election manifesto stated that the party intended to hold a second referendum in 2020; and they won 48 of Scotland’s 59 seats. So, naturally, Nicola Sturgeon has now claimed there is a “renewed, refreshed and strengthened mandate” for another vote.She has formally request the power to hold an independence referendum before the end of 2020, but it has been denied by Boris Johnson. All of this has created a complicated environment in a nation that appears to be in a very difficult (and not very favourable) position within Boris Johnson's UK.</p>
