@@ -1,7 +1,7 @@
 # Political Data Science
 ## Analysing Sentiment towards a new Scottish Independence Referendum
 
-### For a bit more narrative, here's a link to my post in Towards Data Science **[here]**(https://towardsdatascience.com/political-data-science-a-tale-of-tweets-75b762224e56?source=friends_link&sk=eed76e459d1689b1c2497bedf79668b0). 
+### For a bit more narrative, here's a link to my post in Towards Data Science [here](https://towardsdatascience.com/political-data-science-a-tale-of-tweets-75b762224e56?source=friends_link&sk=eed76e459d1689b1c2497bedf79668b0). 
 
 ### Table of Contents
 
